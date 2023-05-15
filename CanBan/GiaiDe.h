@@ -50,7 +50,7 @@ float AVG(int a[], int n)
 	if (n <= 0) return 0;
 	return (a[n - 1] + AVG(a, n - 1)) / (float)(n);
 }
-void AVG_Cong(int a[], int n)
+void AVG_Cong(int a[], int n) //Sai rồi nè
 {
 	int AVG = 0;
 	
